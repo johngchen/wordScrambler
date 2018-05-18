@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Word Scrambler</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<style>
+exampleInput {
+    color: red;
+    text-align: center;
+    font-size: 1.2em;
+    /*  font-weight: bold; */
+} 
+</style>
+</head>
+<body>
+
+<form action="main.jsp" method="POST">
+<h2>The scrambled letters - no space: </h2>
+  <input type="text" name="inputLetters">
+<br><br>
+<!--
+<h2>The desired length of the words: </h2>
+<ul>
+<li> It can be a single length, e.g. <exampleInput>4</exampleInput>, then only the permutations with 4 letters will be displayed. </li>
+<li> It can be a mixture of different lengths separated by comma, e.g. <exampleInput>3, 4</exampleInput>, then only the permutations with 3 and 4 letters will be displayed. </li>
+<li> It can be <exampleInput>FULL</exampleInput>(case insensitive), then only the permutations using all the letters will be displayed. </li>
+<li> It can be <exampleInput>ALL</exampleInput>(case insensitive), then all possible lengths of permutations will be displayed.  <b>This is the default behavior.</b> </li>
+</ul>
+<input type="text" name="inputLength" />
+<br><br>
+ -->
+<input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>
